@@ -1,3 +1,38 @@
 body {
   background: blanchedalmond;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#container {
+overflow: auto;
+}
+
+.a, .b, .c{
+  min-width: 50%;
+  min-height: auto;
+  float: center;
+  margin: 1%;
+  border: 2px dotted #777;
+  padding:40px;
+  border-radius: 10px;
+        
+}
+
+.a {
+  min-width: 300px;
+  max-width: 500px;
+  height: 0px;
+}
+
+.b{
+  min-width: 300px;
+  max-width: 500px;
+  height: 500px;
+}
+
+.c{
+  min-width: 300px;
+  max-width: 500px;
+  height: 0px;
 }
